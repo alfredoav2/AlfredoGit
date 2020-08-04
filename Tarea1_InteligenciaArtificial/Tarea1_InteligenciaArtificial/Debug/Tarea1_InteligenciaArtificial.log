@@ -1,2 +1,12 @@
+<<<<<<< Updated upstream
 ﻿  Draw.cpp
+=======
+﻿  Agente.cpp
+C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Tarea1_InteligenciaArtificial\Agente.h(119,37): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Tarea1_InteligenciaArtificial\Agente.h(120,37): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+  Tarea1_InteligenciaArtificial.cpp
+C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Tarea1_InteligenciaArtificial\Agente.h(119,37): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Tarea1_InteligenciaArtificial\Agente.h(120,37): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+  Generando código...
+>>>>>>> Stashed changes
   Tarea1_InteligenciaArtificial.vcxproj -> C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Debug\Tarea1_InteligenciaArtificial.exe

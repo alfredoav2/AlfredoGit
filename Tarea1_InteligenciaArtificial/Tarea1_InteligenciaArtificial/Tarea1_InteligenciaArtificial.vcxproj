@@ -88,13 +88,22 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+<<<<<<< Updated upstream
       <AdditionalIncludeDirectories>C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Tarea1_InteligenciaArtificial\Extralibs\SDL2-2.0.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Tarea1_InteligenciaArtificial\Extralibs\SDL2-2.0.12\include;C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Tarea1_InteligenciaArtificial\Extralibs\SDL2_image-2.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> Stashed changes
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+<<<<<<< Updated upstream
       <AdditionalLibraryDirectories>C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Tarea1_InteligenciaArtificial\Extralibs\SDL2-2.0.12\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+=======
+      <AdditionalLibraryDirectories>C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Tarea1_InteligenciaArtificial\Extralibs\SDL2-2.0.12\lib\x86;C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Tarea1_InteligenciaArtificial\Extralibs\SDL2_image-2.0.5\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+>>>>>>> Stashed changes
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -105,15 +114,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Tarea1_InteligenciaArtificial\Extralibs\SDL2-2.0.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Tarea1_InteligenciaArtificial\Extralibs\SDL2-2.0.12\include;C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Tarea1_InteligenciaArtificial\Extralibs\SDL2_image-2.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Tarea1_InteligenciaArtificial\Extralibs\SDL2-2.0.12\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Tarea1_InteligenciaArtificial\Extralibs\SDL2-2.0.12\lib\x86;C:\Users\Usuario\source\repos\Tarea1_InteligenciaArtificial\Tarea1_InteligenciaArtificial\Extralibs\SDL2_image-2.0.5\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -145,11 +154,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Agente.cpp" />
     <ClCompile Include="Draw.cpp" />
     <ClCompile Include="Tarea1_InteligenciaArtificial.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Agente.h" />
+    <ClInclude Include="Arrival.h" />
     <ClInclude Include="Draw.h" />
+    <ClInclude Include="Evade.h" />
+    <ClInclude Include="Flee.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Seek.h" />
+    <ClInclude Include="Vector2D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
